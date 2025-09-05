@@ -83,6 +83,21 @@ main{
   padding: 20px 40px;
   border-radius: 15px;
 }
+.enroll-btn{
+  margin-top: 20px;
+  padding: 25px 35px 25px 35px;
+  background-color: #c4bf25;
+  color:white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.enroll-btn:hover{
+  filter: brightness(1.2); 
+}
 
 
 /* ABOUT */
@@ -203,4 +218,46 @@ footer {
  .box h3 {
     margin: 0;
     font-size: 16px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+    max-width: 1200px;
+    margin-top: 400px;
+}
+
+.box3{
+    width:200px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border:  1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background-color:#d6e3dd;
+}
+
+.box3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.box3 h2 {
+    font-size: 20px;
+    margin: 15px 0 10px;
+}
+
+.box3 p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.box3:hover {
+    transform: translateY(-5px);
 }
